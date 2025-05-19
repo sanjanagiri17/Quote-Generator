@@ -1,0 +1,46 @@
+body {
+    transition: background 0.5s ease;
+  }
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+div{
+  width: 30rem;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 10px double rgb(0, 0, 0);
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  
+}
+#quote{
+    font: 1em sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    box-shadow: 0 0  5px rgb(255, 255, 255);
+    
+}
+#auth{
+    font: 1em sans-serif;
+    font-size: 1rem;
+    
+}
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:hover{
+    background-color: #3d9040;
+}
